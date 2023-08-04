@@ -1,0 +1,28 @@
+{
+  "name": "ReactDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lishuailibertine/ReactDemo.git",
+  "author": "lishuailibertine <libertine9458@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "@storybook/addon-essentials": "^7.2.1",
+    "@storybook/addon-interactions": "^7.2.1",
+    "@storybook/addon-links": "^7.2.1",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.2.1",
+    "@storybook/react": "^7.2.1",
+    "@storybook/react-webpack5": "^7.2.1",
+    "@storybook/testing-library": "^0.2.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.2.1"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
+}
